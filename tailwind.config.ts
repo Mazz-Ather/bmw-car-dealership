@@ -12,7 +12,14 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-    },
+    },  screens:{ 
+      '2xl':{max:'1535px'},
+
+      xl:{max:'1279px'},
+      lg:{max:'767px'},
+      sm:{max:'639'},
+      xs:{max:'479px'}
+    }
   },
   plugins: [],
 };
